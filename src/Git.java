@@ -1,3 +1,5 @@
+import java.util.Random;
+
 
 public class Git {
 	
@@ -7,6 +9,9 @@ public class Git {
 	 */
 	public static void main(String[] args){
 		
+		// adding some code to see what happens
+		Random r = new Random();
+		System.out.println(r.nextInt());
 	}
 
 }
